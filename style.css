@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h1 {
+    color: white;
+    text-align: center
+}
+.box {
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}
+.main {
+    display: grid;
+    background-color: lightblue;
+    grid-template-areas:
+    "a a a a"
+    "- - - -"
+}
