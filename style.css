@@ -2,10 +2,18 @@
     margin:0px;
     padding:0px;
 }
-
+.main {
+    display: flex;
+    justify-content: space-around;
+}
 h1 {
     color: white;
     text-align: center;
+    padding:10px;
+}
+header {
+    background-color: black;
+    text-align: center
 }
 .img{
     width: 200px;
@@ -14,20 +22,17 @@ h1 {
 body {
     background-color: rgb(25, 39, 52);
   }
-header {
-    background-color: black;
-    text-align: center
-}
+
 button {
-    margin: 0px;
-    padding: 20px;
+    margin: 10px;
+    padding: 15px 20px;
+    background-color: darkgray;
 
 }
-.main {
+
+.buttons{
     display: flex;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    justify-content: center;
 }
 footer {
     background-color: rgb(0, 0, 0);
