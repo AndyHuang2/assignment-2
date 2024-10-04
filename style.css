@@ -16,8 +16,12 @@ header {
     text-align: center
 }
 .img{
+    border: solid rgb(255, 255, 255);
     width: 200px;
     height: 296px;
+}
+.img2{
+    width: 100%;
 }
 body {
     background-color: rgb(25, 39, 52);
