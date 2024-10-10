@@ -33,14 +33,19 @@ header {
 body {
     background-color: rgb(25, 39, 52);
   }
-
+.Trending {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
 button {
     margin: 10px;
     padding: 15px 20px;
     background-color: darkgray;
 
 }
-
 .buttons{
     display: flex;
     justify-content: center;
@@ -68,3 +73,21 @@ footer {
     font-weight: 1000;
     font-style:normal;
 }
+.herobuttons{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    background-color: #ffffffd8;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.herobuttons:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
