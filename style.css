@@ -69,7 +69,8 @@ button {
 .herobuttons{
     position: absolute;
     top: 70%;
-    left: 40%;
+    left: 39%;
+    transform: translate(-50%, -50%);
     background-color: #ffffffd8;
     color: rgb(0, 0, 0);
     font-size: 16px;
@@ -87,7 +88,8 @@ button {
   .herobuttons2{
     position: absolute;
     top: 70%;
-    left: 60%;
+    left: 61%;
+    transform: translate(-50%, -50%);
     background-color: #ffffffd8;
     color: rgb(0, 0, 0);
     font-size: 16px;
